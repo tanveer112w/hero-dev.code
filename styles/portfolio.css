@@ -106,7 +106,7 @@ nav .manu a{
     max-width: 585px;
     vertical-align: middle;
 }
-#about{
+#about , #resume{
     padding-top: 131px;
 }
 #about .about-con{
@@ -159,6 +159,51 @@ nav .manu a{
     line-height: 28pt;
 
 }
+#resume .resume-con{
+    width: 71%;
+    max-width: 1140px;
+    margin: 113px auto 0;
+    display: flex;
+    gap: 24px;
+}
+.resume-con hr{
+    margin:30px 0;
+}
+.resume-con .section-title{
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+
+}
+.resume-card{
+    max-width: 511px;
+    margin-right: 47px;
+
+}
+.resume-card .card-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+
+}
+.resume-card .card-info{
+    font-size: 16px;
+    font-weight:600px;
+    color: #757575;
+    margin-bottom: 20px;
+
+}
+.resume-card .card-text{
+    font-size: 16px;
+    line-height: 28px;
+    
+    color: #757575;
+    
+}
+
+
+
 
 
 
